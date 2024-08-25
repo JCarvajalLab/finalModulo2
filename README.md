@@ -17,6 +17,7 @@ REQUERIMIENTOS:
 • Uso adecuado de selectores y reglas CSS.
 • Diseño atractivo y coherente.
 • Aplicación de estilos responsivos para distintos tamaños de pantalla.
+
 3.- Bootstrap (15 puntos)
 • Integración de al menos un componente de Bootstrap.
 • Uso adecuado de clases y estilos de Bootstrap.
