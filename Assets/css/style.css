@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(43, 197, 195, 0.54);
+  background-color: rgba(233, 211, 67, 0.603);
 }
 
 header,
@@ -18,7 +18,7 @@ h1 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
+/**background-color: #f7f7f7;**/
 .tarjeta {
   background-color: #f7f7f7;
   padding: 20px;
@@ -31,18 +31,18 @@ h1 {
   margin-bottom: 20px;
 }
 
-.acercade {
+.pProfecional {
   background-color: #fff;
   padding: 20px;
 }
 
-.acercade h1 {
+.pProfecional h2 {
   color: #333;
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: 10px;
 }
 
-.acercade p {
+.pProfecional p {
   font-size: 18px;
   margin-bottom: 20px;
 }
@@ -80,8 +80,16 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.btn{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-.formulario button[type="submit"] {
+.formulario button,[type="submit"] {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
@@ -120,4 +128,3 @@ footer .social a {
 footer .social a:hover {
   color: #ccc;
 }
-
