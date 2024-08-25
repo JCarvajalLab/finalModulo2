@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(43, 197, 195, 0.54);
+}
+
+header,
+section,
+footer {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta .card {
+  margin-bottom: 20px;
+}
+
+.acercade {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.acercade h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.acercade p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.barraProgreso {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.barraProgreso .progress {
+  margin-bottom: 20px;
+}
+
+.barraProgreso .label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.formulario label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer, header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer .social {
+  margin-top: 20px;
+}
+
+footer .social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .social li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: #ccc;
+}
+
