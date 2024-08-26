@@ -31,7 +31,7 @@ $(document).ready(function () {
             alert("Por favor, ingrese su nombre");
             return;
         }
-        
+
         //exprecion regular correo
         var regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!regex.test(correo)) {
