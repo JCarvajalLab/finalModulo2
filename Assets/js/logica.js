@@ -8,7 +8,7 @@ $(document).ready(function () {
         $('#d1').toggle();
     });
 
-    $('.pProfecional #h33').dblclick(function () {
+    $('.pProfecional #h33').click(function () {
         $('#d3').toggle();
     });
     //pasar el mouse
